@@ -39,5 +39,20 @@
 
 nav li {
   background-color: aqua;
-  height: 10px;
+  display: inline-block;
+}
+
+.right-nav {
+  float: right;
+}
+
+.blue-button {
+  color: white;
+  background-color: #3C698E;
+  // border-color: #3C698E;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 11px;
+  padding: 6px;
+
 }
