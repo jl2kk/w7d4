@@ -1,6 +1,9 @@
 @use '../variables' as *;
 
-.main-nav {}
+.main-nav {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+}
 
 .left-nav>ul,
 .right-nav>ul {}
@@ -27,9 +30,26 @@
 .left-nav>ul>li:hover,
 .right-nav>ul>li:last-of-type:hover {}
 
+.white-button div {
+  border-width: thick;
+  border-color: white;
+  color: black;
+  border-style: solid;
+}
 
-
-button {
+nav li {
   background-color: aqua;
-  height: 10px;
+  display: inline-block;
+}
+
+.right-nav {
+  float: right;
+}
+
+.blue-button {
+  color: white;
+  background-color: #3C698E;
+  // border-color: #3C698E;
+  border-width: thick;
+  border-style: solid;
 }
