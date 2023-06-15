@@ -7,7 +7,10 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
 }
 
 button {
@@ -39,7 +42,8 @@ hr {
 	background-color: $light-gray;
 }
 
-.hr-top, .hr-bottom {
+.hr-top,
+.hr-bottom {
 	width: 100%;
 	margin: 0;
 }
