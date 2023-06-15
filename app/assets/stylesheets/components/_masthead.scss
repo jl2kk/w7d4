@@ -6,6 +6,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	margin-top: 40px;
 }
 
 .language-nav {
@@ -28,12 +29,28 @@
 
 	ul {
 		display: flex;
+
 	}
+}
+
+hr {
+	color: black;
+}
+
+.language-nav::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background-color: black;
 }
 
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+	size: 400px;
 }
 
 .masthead-links {
@@ -42,10 +59,14 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
 
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+		display: inline-block;
+
 	}
 
 	button {
@@ -61,7 +82,7 @@
 	}
 
 	a,
-	button, 
+	button,
 	time {
 		margin-right: 10px;
 	}
